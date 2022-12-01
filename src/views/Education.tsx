@@ -33,11 +33,11 @@ const Education = () => {
                 padding: 3,
                 height: 580,
                 width: 800,
-                background: "#ffffff57",
+                background: "white",
                 backdropFilter: "blur(10px)",
                 borderRadius: 3,
                 position: "absolute",
-                color: "white",
+                color: "black",
             }}
         >
             <HorizontalLabelPositionBelowStepper page={page} />

@@ -73,7 +73,7 @@ export default function SelectChip() {
                     size='small'
                     value={personName}
                     onChange={handleChange}
-                    input={<OutlinedInput size='small' id="select-multiple-chip" label="Chip" />}
+                    input={<OutlinedInput size='small' id="select-multiple-chip" label="Choice of skills" />}
                     renderValue={(selected) => (
                         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
                             {selected.map((value) => (

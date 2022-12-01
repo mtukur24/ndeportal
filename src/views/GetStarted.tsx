@@ -25,7 +25,6 @@ export default function GetStarted() {
             sx={style}
         >
             <RequirementInfo />
-            {/* <button>Get Started</button> */}
 
         </Modal>
 

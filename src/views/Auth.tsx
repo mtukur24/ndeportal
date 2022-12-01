@@ -42,7 +42,7 @@ const Auth = ({ name, info, children }: any) => {
                 padding: 4,
                 height: 420,
                 width: 480,
-                background: "#ffffff57",
+                background: "white",
                 backdropFilter: "blur(10px)",
                 borderRadius: 3,
                 position: "absolute",

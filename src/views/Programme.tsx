@@ -25,7 +25,7 @@ const Programme = () => {
                 padding: 3,
                 height: 580,
                 width: 800,
-                background: "#ffffff57",
+                background: "white",
                 backdropFilter: "blur(10px)",
                 borderRadius: 3,
                 position: "absolute",
@@ -38,21 +38,6 @@ const Programme = () => {
                 flexDirection={"row"}
                 flexWrap={"nowrap"}
             >
-
-                {/* <Grid>
-                <img src={logo} width={250} height={80} alt="" />
-
-                <Typography mt={3} fontWeight={700}>
-                    Reqiurements
-                </Typography>
-                <ul>
-                    <li>NIN Number</li>
-                    <li>Must be 18 years or above</li>
-                    <li>Working phone Number</li>
-                    <li>Passport photograph</li>
-                </ul>
-            </Grid>
-            <Divider sx={{ m: 3 }} orientation="vertical" variant="middle" flexItem /> */}
                 <Grid sx={{}}>
                     <Typography
                         gutterBottom

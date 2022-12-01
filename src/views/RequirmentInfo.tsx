@@ -52,7 +52,7 @@ const RequirementInfo = () => {
         padding: 4,
         height: 420,
         width: 480,
-        background: "#ffffff57",
+        background: "#d9e6dd",
         backdropFilter: "blur(10px)",
         borderRadius: 3,
         position: "absolute",
@@ -83,6 +83,7 @@ const RequirementInfo = () => {
             <ListItem>NIN Identification Number</ListItem>
             <ListItem>Passport photograph</ListItem>
           </List>
+          {/* <Button>Login or Register</Button> */}
         </Grid2>
       )}
     </Grid2>

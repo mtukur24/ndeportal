@@ -21,8 +21,6 @@ import { useBearStore } from "../store";
 import HorizontalLabelPositionBelowStepper from "../component/Stepper";
 
 
-////new branchh
-
 const PersonalInfo = () => {
     const [fileDataURL, setFileDataURL] = useState("");
     const [stateOrg, setStateOrg] = useState<any>("");
@@ -41,7 +39,7 @@ const PersonalInfo = () => {
                 padding: 3,
                 height: 580,
                 width: 800,
-                background: "#ffffff57",
+                background: "white",
                 backdropFilter: "blur(10px)",
                 borderRadius: 3,
                 position: "absolute",
